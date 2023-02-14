@@ -15,8 +15,8 @@ struct ContentView: View {
         case green
         case yellow
     }
-    @State var currentOpacity: Opacity = .red
     
+    @State var currentOpacity: Opacity = .red
     @State private var redOpacity: Double = 0.1
     @State private var yellowOpacity: Double = 0.1
     @State private var greenOpacity: Double = 0.1
